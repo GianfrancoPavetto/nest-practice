@@ -9,7 +9,7 @@ export class MessagesController {
   }
 
   @Post()
-  createMessage(@Body() body: any) {
+  createMessage(@Body() body: CreateMessageDto) {
     console.log(body);
   }
 
